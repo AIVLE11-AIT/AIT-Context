@@ -14,7 +14,8 @@ app = Flask(__name__)
 
 # 모델 및 사전 준비
 # GPT
-client = OpenAI(api_key="sk-proj-b2x05FmtNy1Q2cfocAUGT3BlbkFJvmLMXpUHJM5TXCyb7o95")
+OPENAI_API_KEY = "<API-KEY>"
+client = OpenAI(api_key=OPENAI_API_KEY)
 # BERT
 model_directory = './emotion_prediction_bert'
 tokenizer = BertTokenizer.from_pretrained(model_directory)
