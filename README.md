@@ -13,7 +13,7 @@
 
 ## 문맥 분석 서버
 LLM과 BERT-base를 활용해 기업 공통 질문과 자소서 기반 질문을 분석
-- GPT-4o(40%), LSA Score(20%), Similarity Score(20%), Emotion Score(20%)
+- GPT-4o(40%), Emotion Score(20%), LSA Score(20%), Similarity Score(20%)
 
 ### 환경
 ```
