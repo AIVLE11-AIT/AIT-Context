@@ -12,16 +12,19 @@
 | [HuiGwon Ryu](https://github.com/AnthonyRyu) | [Aivle-noin](https://github.com/Aivle-noin) | [kimcookie00](https://github.com/kimcookie00) |
 
 ## 문맥 분석 서버
-LLM과 bert를 활용해 기업 공통 질문과 자소서 기반 질문을 분석
+LLM과 BERT-base를 활용해 기업 공통 질문과 자소서 기반 질문을 분석
+- GPT-4o(40%), LSA Score(20%), Similarity Score(20%), Emotion Score(20%)
 
 ### 환경
-`Python` == 3.11.9    
-`numpy` == 1.26.4   
-`Flask` == 3.0.3   
-`scikit-learn (sklearn)` == 1.5.0   
-`openai` == 1.35.10 (에러날 시 확인 필요)   
-`torch` == 2.3.1   
-`transformers` == 4.42.3   
+```
+Python == 3.11.9    
+numpy == 1.26.4   
+Flask == 3.0.3   
+scikit-learn (sklearn) == 1.5.0   
+openai == 1.35.10 (에러날 시 확인 필요)   
+torch == 2.3.1   
+transformers == 4.42.3
+```
 
 ### 사용법
 
